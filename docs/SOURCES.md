@@ -4,6 +4,8 @@ Weryfikacja: 4 września 2026. Komunikacja kampanii jest stanowcza; źródła od
 
 ## Petycja i Kopki
 
+Wykres na stronie wykorzystuje porównanie z części II („Argumenty środowiskowe”) petycji z 23 sierpnia 2026: 171 ha wylesienia dla korytarza czerwonego (także zielonego) wobec 63 ha dla korytarza blisko DK50. Petycja przypisuje wyliczenia Nadleśnictwu Celestynów; nie pozyskaliśmy odrębnego pierwotnego opracowania nadleśnictwa. Dlatego autorstwo i pośrednie źródło są podane bezpośrednio przy wykresie. 108 ha to różnica 171 − 63; nie suma dla całego pierścienia Warszawy ani powierzchnia już uratowana. Nie twierdzimy, że wyliczenie dowodzi globalnie najmniejszego wpływu dowolnego przyszłego projektu DK50.
+
 - [Petycja z sierpnia 2026](https://www.petycjeonline.com/protest_dotyczcy_przebiegu_wschodniej_czci_obwodnicy_aglomeracji_warszawskiej_oaw_tak_ale_w_ladzie_zblionym_do_dk50_w_standardzie_drogi_ekspresowej_s50_-_tak_autostra): wykluczenie przebiegu przez Wiązownę, Otwock i Dębe Wielkie; postulat S50 blisko DK50; zagrożenie dla MPK, Świdra i obszaru Natura 2000. Inicjatorzy: Nie Tędy Droga i Eko-Glinianka. To docelowy link CTA, bez parametrów śledzących.
 - [Mapa korytarza w gminie Wiązowna, 2021](https://www.nietedydroga.pl/projekt-przebiegu-korytarza-oaw-w-gminie-wiazowna/): obejmuje Kopki i sąsiednie miejscowości. Historyczny szeroki korytarz, nie aktualny projekt budowlany. Mapa jest linkowana, nie kopiowana bez ustalonej licencji.
 - [Petycja i uzasadnienie z 2021, PDF](https://www.nietedydroga.pl/wp-content/uploads/2021/03/petycja_SNTD-2.pdf): kontekst korytarzy, Kopki, Świder, DK50. Nie przenosimy automatycznie wszystkich zagrożeń ze wszystkich wariantów na Kopki.

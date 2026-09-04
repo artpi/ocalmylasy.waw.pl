@@ -34,8 +34,8 @@
     url.hash = "";
     url.search = "";
     const shareData = {
-      title: "Ocalmy dolinę Świdra",
-      text: "Nie pozwólmy przeciąć doliny Świdra autostradą. Podpisz petycję i chroń lasy wokół Warszawy.",
+      title: "Ocalmy lasy wokół Warszawy",
+      text: "Nie przecinajmy lasów kolejną autostradą. Podpisz petycję za S50 bliżej DK50 i ochroną zielonego pierścienia Warszawy.",
       url: url.href,
     };
     status.textContent = "";

@@ -1,8 +1,10 @@
-# Dolina Świdra — instrukcje projektu
+# Ocalmy lasy — instrukcje projektu
 
 ## Cel i zakres
 
-To polska, niezależna strona kampanii ochrony doliny Świdra i lasów wokół Warszawy. Najważniejszy postulat: **wykluczyć korytarz Obwodnicy Aglomeracji Warszawskiej (OAW/A50) przez Kopki, gminę Wiązowna i Otwock**. Głównym działaniem jest obecnie podpisanie petycji Stowarzyszenia Nie Tędy Droga i Eko-Glinianka. Strona wspiera petycję, ale nie przedstawia się jako oficjalna strona tych organizacji.
+To polska, niezależna kampania **Ocalmy lasy**, której głównym celem jest ochrona lasów wokół Warszawy. Zasada wyboru trasy: wykorzystanie istniejącego korytarza DK50, ograniczenie wycinki i zachowanie ciągłości kompleksów leśnych. **Wykluczenie korytarza OAW/A50 przez Kopki, Wiązownę i Otwock jest konkretnym działaniem służącym temu celowi.** Głównym CTA jest obecnie podpisanie petycji Nie Tędy Droga i Eko-Glinianka. Strona wspiera petycję, ale nie przedstawia się jako oficjalna strona tych organizacji.
+
+Użytkownik zatwierdził szerszą markę i narrację, aby przekaz dotyczył skutków dla lasów, a nie tylko ochrony własnej miejscowości. **Nie przywracaj Kopek ani nazwy Dolina Świdra jako głównej marki/hero.** Kolejność: lasy wokół Warszawy → porównanie skutków wycinki → konkretne miejsca → DK50/S50 → wykluczenie korytarza przez Kopki → podpis. Świder, Puszcza Mazowiecka i Lasy Chojnowskie są przykładami wspólnego interesu przyrodniczego. Repozytorium nadal nazywa się `dolinaswidra.pl`; nowa domena nie została zarejestrowana ani podłączona.
 
 To kampania mobilizująca do ochrony konkretnych miejsc, nie neutralny przegląd wariantów drogowych. Pisz zdecydowanie: „Ocalmy”, „Nie pozwólmy”, „Żądamy wykluczenia”. Nie zaczynaj od „GDDKiA jeszcze analizuje” i nie rozmywaj wezwania do działania językiem urzędowym. Jednocześnie nie wymyślaj faktów, wycinki, decyzji, terminów ani poparcia organizacji.
 
@@ -15,6 +17,7 @@ Wariant blisko DK50, w standardzie S50, jest postulowaną alternatywą. Użytkow
 - Historyczne mapy korytarza mają datę 2021; nie opisuj ich jako ostatecznego projektu lub przebiegu budowy. Mocne wezwanie do wykluczenia korytarza nie wymaga udawania, że inwestycję już zatwierdzono.
 - Nie dodawaj zagrożeń dotyczących wyłącznie innych wariantów (np. Bagna Celestynowskie) jako skutków korytarza przez Kopki.
 - Nie podawaj niezweryfikowanych liczników podpisów, hektarów, kosztów ani dat protestów.
+- Zatwierdzone porównanie: **171 ha** wylesienia dla korytarza czerwonego lub zielonego i **63 ha** dla przebiegu blisko DK50. Podawaj źródło przy wykresie: wyliczenia Nadleśnictwa Celestynów przytoczone w petycji. Różnica **108 ha** wynika z odejmowania, nie jest już ocaloną powierzchnią. To porównanie opisane w źródle, nie suma dla wszystkich lasów wokół Warszawy ani dowód na ranking wszystkich wariantów. Nie sumuj czerwonego i zielonego.
 - Źródła i kontekst: `docs/SOURCES.md` oraz `docs/PROJECT.md`. Fakty muszą być sprawdzalne, ale przypisy nie powinny dominować nad kampanią.
 - Zdjęcia mają przedstawiać prawdziwy Świder lub uczciwie podpisane lokalne lasy. Nie generuj dokumentalnych zdjęć rzekomej wycinki ani fałszywych map. Zachowuj licencje i autorstwo w `public/credits.html`.
 

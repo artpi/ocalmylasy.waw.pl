@@ -1,6 +1,6 @@
-# Ocalmy dolinę Świdra
+# Ocalmy lasy wokół Warszawy
 
-Statyczna strona kampanii ochrony doliny Świdra i podwarszawskich lasów. Cel: wykluczenie korytarza OAW przez Kopki. Obecne działanie: podpis petycji popierającej S50 w śladzie zbliżonym do DK50.
+Statyczna strona kampanii **Ocalmy lasy**. Cel: ochrona zielonego pierścienia Warszawy poprzez ograniczenie wycinki i nowych przecięć lasów. Strona pokazuje porównanie 171 ha i 63 ha wylesienia, przedstawia Świder, Puszczę Mazowiecką oraz Lasy Chojnowskie i prowadzi do petycji za S50 bliżej DK50. Wykluczenie korytarza przez Kopki jest konkretnym postulatem służącym ochronie lasów.
 
 ## Podgląd
 
@@ -26,7 +26,7 @@ Otwórz `http://127.0.0.1:4175`. Brak instalacji zależności i procesu budowani
 
 Workflow `.github/workflows/pages.yml` publikuje wyłącznie `public/` po pushu do `main`. W ustawieniach repozytorium wybierz **Pages → Source → GitHub Actions**. Hosting repozytorium prywatnego wymaga odpowiedniego planu GitHub; alternatywą jest upublicznienie repozytorium za zgodą właściciela.
 
-Adres docelowy pierwszego wdrożenia: `https://artpi.github.io/dolinaswidra.pl/`. Domena własna nie jest jeszcze skonfigurowana. Przy jej podłączeniu zaktualizuj canonical i Open Graph w HTML, dodaj `CNAME` oraz konfigurację domeny w Pages i DNS.
+Adres docelowy pierwszego wdrożenia: `https://artpi.github.io/dolinaswidra.pl/`. Marka kampanii to „Ocalmy lasy”; nazwa repozytorium pozostaje `dolinaswidra.pl`. Nowa domena nie została zarejestrowana ani skonfigurowana. Przy jej podłączeniu zaktualizuj canonical i Open Graph w HTML, dodaj `CNAME` oraz konfigurację domeny w Pages i DNS.
 
 ## Aktualizacja działania
 

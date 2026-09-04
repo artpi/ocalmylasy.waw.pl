@@ -301,11 +301,11 @@ button:focus-visible {
   box-shadow: 0 0 0 5px #d5ed911a;
 }
 .hero h1 {
-  font-size: clamp(74px, 7.9vw, 116px);
+  font-size: clamp(68px, 7.2vw, 104px);
   line-height: 0.99;
   letter-spacing: -0.055em;
   margin-left: -5px;
-  max-width: 850px;
+  max-width: 1080px;
 }
 .hero h1 em {
   color: var(--lime);
@@ -466,7 +466,7 @@ button:focus-visible {
   margin-bottom: 22px;
   letter-spacing: -0.045em;
 }
-.nature-card > p:last-child {
+.nature-card > p:not(.card-tag) {
   font-size: 13px;
   color: #465e4c;
   line-height: 1.95;
@@ -831,6 +831,196 @@ button:focus-visible {
 .credits-main a {
   overflow-wrap: anywhere;
 }
+/* The campaign leads with a measurable environmental comparison. */
+.comparison-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  align-items: center;
+}
+.comparison-copy .eyebrow {
+  margin-bottom: 25px;
+}
+.comparison-copy h2 {
+  margin-bottom: 30px;
+}
+.comparison-copy .lead {
+  font-size: 22px;
+}
+.comparison-copy p:not(.eyebrow):not(.lead) {
+  font-size: 14px;
+}
+.forest-comparison {
+  margin: 0;
+  padding: 34px;
+  background: #e8ecdf;
+  border-radius: 4px;
+}
+.forest-comparison figcaption {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.forest-comparison figcaption span {
+  display: block;
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: var(--muted);
+}
+.comparison-row + .comparison-row {
+  margin-top: 26px;
+}
+.comparison-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 9px;
+  font-size: 12px;
+}
+.comparison-label strong {
+  font-family: var(--serif);
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.comparison-label small {
+  font-family: var(--sans);
+  font-size: 14px;
+}
+.comparison-track {
+  height: 23px;
+  background: #d9e0cf;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.comparison-bar {
+  height: 100%;
+  display: block;
+}
+.comparison-bar-high {
+  width: 100%;
+  background: #9c5b43;
+}
+.comparison-bar-low {
+  width: 36.842105%;
+  background: var(--forest);
+}
+.comparison-difference {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+  padding-top: 25px;
+  border-top: 1px solid #bac6ad;
+}
+.comparison-difference strong {
+  font-family: var(--serif);
+  font-size: 51px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+.comparison-difference span {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.forest-comparison .text-link {
+  margin-top: 24px;
+  font-size: 10px;
+}
+.forest-comparison .text-link span {
+  margin-left: 8px;
+}
+.nature-card .text-link {
+  margin-top: 22px;
+  font-size: 11px;
+}
+.corridor-demand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-top: 70px;
+  padding-top: 42px;
+  border-top: 1px solid #52705b;
+}
+.corridor-demand h3 {
+  font-size: 35px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+.corridor-demand > div > p:not(.eyebrow) {
+  font-size: 14px;
+  color: #d0dbce;
+}
+.corridor-demand .text-link {
+  font-size: 11px;
+  margin-top: 22px;
+}
+.corridor-demand > div > .map-date {
+  font-size: 10px;
+  margin-top: 8px;
+}
+@media (max-width: 1100px) {
+  .comparison-section {
+    gap: 40px;
+  }
+  .forest-comparison {
+    padding: 25px;
+  }
+  .corridor-demand {
+    gap: 45px;
+  }
+}
+@media (max-width: 760px) {
+  .comparison-section {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .comparison-copy h2 {
+    font-size: 45px;
+  }
+  .comparison-copy .lead {
+    font-size: 20px;
+  }
+  .forest-comparison {
+    padding: 24px 20px;
+  }
+  .comparison-label {
+    font-size: 11px;
+  }
+  .comparison-label strong {
+    font-size: 34px;
+  }
+  .comparison-difference strong {
+    font-size: 46px;
+  }
+  .nature-card .text-link {
+    grid-column: 1/-1;
+    justify-self: start;
+    font-size: 11px;
+    margin-top: 18px;
+  }
+  .corridor-demand {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-top: 45px;
+    padding-top: 32px;
+  }
+  .corridor-demand h3 {
+    font-size: 31px;
+  }
+  .action-section .button-dark {
+    min-width: 0;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 12px;
+  }
+}
+
 @keyframes hero-settle {
   from {
     transform: scale(1.04);
@@ -845,7 +1035,7 @@ button:focus-visible {
     width: min(1440px, calc(100% - 140px));
   }
   .hero h1 {
-    font-size: 128px;
+    font-size: 110px;
   }
 }
 @media (max-width: 1100px) {
@@ -942,7 +1132,7 @@ button:focus-visible {
       linear-gradient(0deg, #0a1e1499, transparent 60%);
   }
   .hero h1 {
-    font-size: clamp(66px, 12vw, 90px);
+    font-size: clamp(48px, 12vw, 68px);
     margin-left: -3px;
   }
   .hero-eyebrow {
@@ -1075,7 +1265,7 @@ button:focus-visible {
     font-size: 35px;
     margin-bottom: 18px;
   }
-  .nature-card > p:last-child {
+  .nature-card > p:not(.card-tag) {
     grid-column: 1/-1;
     max-width: 560px;
     font-size: 13px;
@@ -1236,7 +1426,7 @@ button:focus-visible {
     display: none;
   }
   .hero h1 {
-    font-size: 62px;
+    font-size: 48px;
   }
   .hero-button {
     font-size: 11px;

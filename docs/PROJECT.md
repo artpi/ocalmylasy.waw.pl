@@ -1,20 +1,22 @@
-# Ocalmy dolinę Świdra
+# Ocalmy lasy wokół Warszawy
 
-## Dla kogo i po co
+## Cel i marka
 
-Mieszkańcy Warszawy i okolic znają lasy, rzekę, spacery i wycieczki. Zawiłe nazwy wariantów inwestycji nie budują podobnej więzi. Strona zaczyna od miejsca, które chcemy zachować, następnie pokazuje zagrożenie i prowadzi do podpisu. Jej centralnym celem jest wykluczenie korytarza OAW przez Kopki.
+Marka kampanii: **Ocalmy lasy**. Główne hasło: **Ocalmy lasy wokół Warszawy. Nie przecinajmy ich kolejną autostradą.**
 
-Główne hasło: **Ocalmy dolinę Świdra. Nie pozwólmy przeciąć jej autostradą.**
+Użytkownik zatwierdził szerszą narrację ochrony lasów. Strona ma przedstawiać skutki wyboru trasy dla zielonego pierścienia Warszawy. Ochrona konkretnej miejscowości nie jest punktem wyjścia. Zasada kampanii: wykorzystanie istniejącego korytarza drogowego, ograniczenie wycinki oraz zachowanie ciągłości lasów i dolin rzecznych.
 
-## Struktura
+Wykluczenie korytarza OAW przez Kopki, Wiązownę i Otwock pozostaje konkretnym postulatem służącym temu celowi. Popieramy S50 w śladzie zbliżonym do DK50. Nie rozszerzamy kampanii na sprzeciw wobec wszystkich wariantów OAW.
 
-1. Zdjęcie prawdziwego Świdra, hasło i wezwanie do działania.
-2. Jasne wyjaśnienie postulatu wykluczenia korytarza przez Kopki.
-3. Co chronimy: rzeka i rezerwat Świder, ciągłość lasów, miejsca codziennego odpoczynku; kontekst lasów społecznych.
-4. Alternatywa: wykorzystanie korytarza DK50 w standardzie S50.
-5. Szerszy interes: lasy garwolińsko-otwockie/Puszcza Mazowiecka oraz Lasy Chojnowskie. Wskazujemy rzeczywiste, wcześniejsze stanowiska popierające DK50.
-6. Jedna sekcja działania: podpis petycji, potwierdzenie podpisu zgodnie z instrukcją serwisu, udostępnienie strony.
-7. Rozwijane źródła i transparentna informacja o niezależnym charakterze strony.
+## Struktura strony
+
+1. Lasy wokół Warszawy: wspólny cel i wyraźne wezwanie do podpisu.
+2. Porównanie 171 ha i 63 ha wycinki, według wyliczeń Nadleśnictwa Celestynów przytoczonych w petycji. Różnica 108 ha jest pokazana proporcjonalnym wykresem, z podanym źródłem.
+3. Konkretne miejsca: dolina Świdra, lasy garwolińsko-otwockie/Puszcza Mazowiecka, Lasy Chojnowskie. Stanowiska dotyczące DK50 są podlinkowane; nie deklarujemy formalnej koalicji.
+4. Lasy społeczne: znaczenie przyrody i odpoczynku dla mieszkańców całej aglomeracji.
+5. Postulowana alternatywa DK50/S50 i wykluczenie korytarza przez Kopki jako konkretne działanie.
+6. Podpis petycji w obronie lasów, potwierdzenie podpisu i udostępnienie strony.
+7. Źródła, autorstwo fotografii i informacja o niezależnym charakterze kampanii.
 
 ## Etapy i rozwój
 
@@ -24,4 +26,4 @@ Możliwe kolejne dodatki: autorskie zdjęcia z Kopek, mapa GIS z datą i źród�
 
 ## Publikacja i prywatność
 
-Początkowy hosting: GitHub Pages pod `https://artpi.github.io/dolinaswidra.pl/`. Nazwa kampanii/domeny: `dolinaswidra.pl`; DNS i domena nie są częścią pierwszego wdrożenia. Publiczny artefakt zawiera wyłącznie `public/`. Brak cookies, analityki, osadzonych widgetów i zewnętrznych fontów. Podpis zbierany jest na Petycjeonline.com zgodnie z zasadami tego serwisu.
+Początkowy hosting: GitHub Pages pod `https://artpi.github.io/dolinaswidra.pl/`. Marka kampanii: „Ocalmy lasy”. Repozytorium zachowuje nazwę `dolinaswidra.pl`; adres ten może później prowadzić do szerszej kampanii. Nowa domena nie została zarejestrowana ani podłączona. DNS nie jest częścią tej zmiany. Publiczny artefakt zawiera wyłącznie `public/`. Brak cookies, analityki, osadzonych widgetów i zewnętrznych fontów. Podpis zbierany jest na Petycjeonline.com zgodnie z zasadami tego serwisu.
