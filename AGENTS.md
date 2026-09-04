@@ -1,0 +1,38 @@
+# Dolina Świdra — instrukcje projektu
+
+## Cel i zakres
+
+To polska, niezależna strona kampanii ochrony doliny Świdra i lasów wokół Warszawy. Najważniejszy postulat: **wykluczyć korytarz Obwodnicy Aglomeracji Warszawskiej (OAW/A50) przez Kopki, gminę Wiązowna i Otwock**. Głównym działaniem jest obecnie podpisanie petycji Stowarzyszenia Nie Tędy Droga i Eko-Glinianka. Strona wspiera petycję, ale nie przedstawia się jako oficjalna strona tych organizacji.
+
+To kampania mobilizująca do ochrony konkretnych miejsc, nie neutralny przegląd wariantów drogowych. Pisz zdecydowanie: „Ocalmy”, „Nie pozwólmy”, „Żądamy wykluczenia”. Nie zaczynaj od „GDDKiA jeszcze analizuje” i nie rozmywaj wezwania do działania językiem urzędowym. Jednocześnie nie wymyślaj faktów, wycinki, decyzji, terminów ani poparcia organizacji.
+
+Wariant blisko DK50, w standardzie S50, jest postulowaną alternatywą. Użytkownik chce także przedstawić Puszczę Mazowiecką i Lasy Chojnowskie tam, gdzie DK50 służy ich ochronie. Związek dokumentują stanowisko Puszczy Mazowieckiej z 2021 r. oraz uwagi gminy Piaseczno do SSL CPK. Opisuj je jako zbieżne postulaty, nie jako potwierdzonych partnerów obecnej kampanii. Nie twierdź, że DK50 jest pozbawiona wpływu na przyrodę ani że każdy las jest zagrożony dokładnie tym samym lokalnym wariantem.
+
+## Rzetelność
+
+- Rezerwat nazywa się **Świder**. Kopki to miejscowość, nie nazwa osobnego rezerwatu. Natura 2000 **Dolina Środkowego Świdra (PLH140025)** to odrębny obszar ochrony.
+- „Lasy społeczne” opisuj na podstawie mapy Ministerstwa Klimatu i Środowiska. Nie utożsamiaj ich automatycznie z rezerwatem ani ustawowym zakazem budowy.
+- Historyczne mapy korytarza mają datę 2021; nie opisuj ich jako ostatecznego projektu lub przebiegu budowy. Mocne wezwanie do wykluczenia korytarza nie wymaga udawania, że inwestycję już zatwierdzono.
+- Nie dodawaj zagrożeń dotyczących wyłącznie innych wariantów (np. Bagna Celestynowskie) jako skutków korytarza przez Kopki.
+- Nie podawaj niezweryfikowanych liczników podpisów, hektarów, kosztów ani dat protestów.
+- Źródła i kontekst: `docs/SOURCES.md` oraz `docs/PROJECT.md`. Fakty muszą być sprawdzalne, ale przypisy nie powinny dominować nad kampanią.
+- Zdjęcia mają przedstawiać prawdziwy Świder lub uczciwie podpisane lokalne lasy. Nie generuj dokumentalnych zdjęć rzekomej wycinki ani fałszywych map. Zachowuj licencje i autorstwo w `public/credits.html`.
+
+## Technologia i praca
+
+- Czysty HTML, CSS i mały JavaScript; bez frameworka, bundlera, zewnętrznych skryptów, analityki i formularza zbierającego dane.
+- Publikowany jest wyłącznie katalog `public/`. Dokumentacja agentów nie trafia do artefaktu Pages.
+- `public/index.html` zawiera pełną treść i działające linki bez JavaScript.
+- Główne CTA kierują do `#dzialaj`. Jedyny zewnętrzny link działania, etykieta, instrukcja i etap są w sekcji `#dzialaj` w HTML. Dzięki temu zmiana etapu kampanii jest możliwa w jednym miejscu i nie wymaga JS.
+- JavaScript służy tylko stopniowemu pojawianiu się sekcji oraz udostępnianiu/kopiowaniu adresu. Uwzględnij brak Clipboard API i anulowanie natywnego udostępniania.
+- Ścieżki do zasobów mają być względne: strona działa pod `/dolinaswidra.pl/` na GitHub Pages i później w domenie głównej.
+- Zachowuj polskie znaki, dostępność klawiaturą, kontrast, `prefers-reduced-motion`, czytelność na małych ekranach oraz działanie bez JS. Nie chowaj treści bez bezpiecznego fallbacku.
+- Styl: ciemna zieleń, papierowy krem, limonkowy akcent, duża szeryfowa typografia, prawdziwe zdjęcia, przestrzeń i dyskretne animacje. Bez korporacyjnych dashboardów, przesadnego alarmizmu i ozdobników odciągających od podpisu.
+- Podgląd: `node scripts/serve.mjs`, następnie `http://127.0.0.1:4175`. Serwer używa wyłącznie standardowych modułów Node.js. Grafika Open Graph: `scripts/make-share-card.py` (opcjonalnie Pillow).
+- Przed publikacją obejrzyj desktop i telefon, sprawdź link petycji, nawigację, brak poziomego przewijania, udostępnianie i brak JS. Nie dodawaj testów odtwarzających tylko implementację.
+- Deploy: `.github/workflows/pages.yml`, automatycznie po pushu na `main`. Repozytorium należy do `artpi`. Nie zmieniaj jego widoczności bez zgody właściciela.
+- Nie dodawaj `CNAME` ani nie zmieniaj DNS, dopóki domena nie jest gotowa do podłączenia. Przy migracji zmień canonical i metadane Open Graph.
+
+## Instrukcje agentów
+
+`AGENTS.md` jest jedynym źródłem tych instrukcji. `CLAUDE.md` wskazuje na niego symlinkiem. Przenośne skille projektu mogą powstać w `.agents/skills`; `.claude/skills` jest dowiązaniem. Nie kopiuj instrukcji między klientami.
