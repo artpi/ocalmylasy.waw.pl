@@ -22,10 +22,10 @@ Wykres na stronie wykorzystuje porównanie z części II („Argumenty środowis
 - [Puszcza Mazowiecka, wpis „OAW 21.04.06”](https://puszczamazowiecka.pl/oaw-21-04-06/), [archiwum OAW](https://puszczamazowiecka.pl/obwodnica-aglomeracji-warszawskiej/): stowarzyszenie potwierdza podpisanie petycji Nie Tędy Droga i Eko-Glinianka z postulatem drogi szybkiego ruchu blisko DK50. Stanowisko z 2021, nie potwierdzenie partnerstwa w kampanii z 2026.
 - [Puszcza Mazowiecka — o organizacji](https://puszczamazowiecka.pl/): działa na rzecz lasów garwolińsko-otwockich. Nazwy stowarzyszenia i szerszego historycznego obszaru leśnego nie utożsamiamy z jedną ustawową formą ochrony.
 - [Piaseczno: uwagi do konsultacji SSL CPK](https://piaseczno.eu/uwagi-w-ramach-konsultacji-cpk/): gmina wskazuje odsunięcie OAW na południe poza Chojnowski Park Krajobrazowy i otulinę, najlepiej ku DK50, jako sposób ochrony Lasów Chojnowskich i doliny Jeziorki. To historyczne stanowisko dotyczące szerszego południowego przebiegu OAW, a nie dowód, że lokalny odcinek w Kopkach przecina również Lasy Chojnowskie.
-- [Rada Powiatu Piaseczyńskiego — stanowisko, PDF](https://archiwumbip.piaseczno.pl/public/getFile?id=523245): postulat DK50 oraz ochrona Chojnowskiego Parku Krajobrazowego.
+- [Rada Powiatu Piaseczyńskiego — stanowisko, PDF](https://archiwumbip.piaseczno.pl/docs/getFile?id=523245): postulat DK50 oraz ochrona Chojnowskiego Parku Krajobrazowego.
 
 Nie twierdzimy, że dowolny projekt przy DK50 nie wymaga wycinki lub nie ma kosztów społecznych. Komunikujemy poparcie dla wykorzystania istniejącego korytarza jako alternatywy wobec przecinania chronionych kompleksów bliżej Warszawy.
 
 ## Fotografie i fonty
 
-Szczegółowe autorstwo, źródła i licencje są dostępne publicznie w `public/credits.html`; pliki licencji fontów w `public/assets/`. Zdjęcia przedstawiają Świder w rejonie Otwocka i Józefowa, nie dokładny punkt przecięcia korytarza w Kopkach. Są podpisane zgodnie z lokalizacją.
+Szczegółowe autorstwo, źródła i licencje są dostępne publicznie w `docs/credits.html`; pliki licencji fontów w `docs/assets/`. Zdjęcia przedstawiają Świder w rejonie Otwocka i Józefowa, nie dokładny punkt przecięcia korytarza w Kopkach. Są podpisane zgodnie z lokalizacją.

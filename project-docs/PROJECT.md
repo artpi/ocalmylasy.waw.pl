@@ -20,10 +20,14 @@ Wykluczenie korytarza OAW przez Kopki, Wiązownę i Otwock pozostaje konkretnym 
 
 ## Etapy i rozwój
 
-Obecny etap to zbieranie podpisów pod petycją z sierpnia 2026 r. Treść działania i zewnętrzny adres są scentralizowane w `#dzialaj` w `public/index.html`. Wszystkie pozostałe przyciski prowadzą do tej sekcji. Gdy pojawią się konsultacje, akcja terenowa lub kolejna petycja, aktualizujemy sekcję działania, jej krótkie etykiety nawigacyjne oraz kontekst w dokumentacji. Nie pozostawiamy nieaktualnych terminów.
+Obecny etap to zbieranie podpisów pod petycją z sierpnia 2026 r. Treść działania i zewnętrzny adres są scentralizowane w `#dzialaj` w `docs/index.html`. Wszystkie pozostałe przyciski prowadzą do tej sekcji. Gdy pojawią się konsultacje, akcja terenowa lub kolejna petycja, aktualizujemy sekcję działania, jej krótkie etykiety nawigacyjne oraz kontekst w dokumentacji. Nie pozostawiamy nieaktualnych terminów.
 
 Możliwe kolejne dodatki: autorskie zdjęcia z Kopek, mapa GIS z datą i źródłem, potwierdzone partnerstwa, aktualności o realnych krokach administracyjnych. Nie dodajemy fikcyjnych liczników ani list poparcia.
 
 ## Publikacja i prywatność
 
-Początkowy hosting: GitHub Pages pod `https://artpi.github.io/dolinaswidra.pl/`. Marka kampanii: „Ocalmy lasy”. Repozytorium zachowuje nazwę `dolinaswidra.pl`; adres ten może później prowadzić do szerszej kampanii. Nowa domena nie została zarejestrowana ani podłączona. DNS nie jest częścią tej zmiany. Publiczny artefakt zawiera wyłącznie `public/`. Brak cookies, analityki, osadzonych widgetów i zewnętrznych fontów. Podpis zbierany jest na Petycjeonline.com zgodnie z zasadami tego serwisu.
+Kampania działa pod marką „Ocalmy lasy” i docelową domeną **ocalmylasy.waw.pl**. Repozytorium `artpi/ocalmylasy.waw.pl` jest publiczne za zgodą właściciela. Klasyczne GitHub Pages publikuje zawartość `main:/docs` pod `https://artpi.github.io/ocalmylasy.waw.pl/`.
+
+Własna domena czeka na zakończenie propagacji DNS. Zgodnie z poleceniem użytkownika nie ustawiamy jeszcze Custom domain w Pages ani pliku `CNAME`. Canonical i `og:url` wskazują już docelowy adres, a `og:image` pozostaje na działającym adresie GitHub Pages do momentu podłączenia domeny.
+
+Publikowany katalog `docs/` zawiera wyłącznie stronę; opis projektu i źródła robocze znajdują się w `project-docs/`. Brak cookies, analityki, osadzonych widgetów i zewnętrznych fontów. Podpis zbierany jest na Petycjeonline.com zgodnie z zasadami tego serwisu.

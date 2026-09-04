@@ -3,7 +3,7 @@ from pathlib import Path
 import math
 from PIL import Image, ImageDraw, ImageFont
 
-assets = Path(__file__).resolve().parent.parent / 'public' / 'assets'
+assets = Path(__file__).resolve().parent.parent / 'docs' / 'assets'
 image = Image.new('RGB', (1200, 630), '#183e31')
 draw = ImageDraw.Draw(image)
 serif = ImageFont.truetype(str(assets / 'fraunces.ttf'), 87)
@@ -21,6 +21,6 @@ draw.rounded_rectangle((68, 476, 332, 543), radius=3, fill='#d5ed91')
 draw.text((93, 494), 'Podpisz petycję', font=bold, fill='#183e31')
 draw.line([(282, 519), (302, 499), (288, 499)], fill='#183e31', width=2)
 draw.line([(302, 499), (302, 513)], fill='#183e31', width=2)
-draw.text((825, 556), 'Mniej wycinki. Więcej lasu.', font=ImageFont.truetype(str(assets / 'manrope.ttf'), 18), fill='#d5ed91')
+draw.text((825, 556), 'ocalmylasy.waw.pl', font=ImageFont.truetype(str(assets / 'manrope.ttf'), 18), fill='#d5ed91')
 image.save(assets / 'share.jpg', quality=90, optimize=True)
-print('Updated public/assets/share.jpg (1200 × 630)')
+print('Updated docs/assets/share.jpg (1200 × 630)')

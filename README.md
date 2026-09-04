@@ -12,21 +12,23 @@ Otwórz `http://127.0.0.1:4175`. Brak instalacji zależności i procesu budowani
 
 ## Pliki
 
-- `public/index.html` — treść kampanii, metadane i scentralizowana sekcja działania `#dzialaj`.
-- `public/styles.css` — responsywny wygląd i animacje z obsługą ograniczenia ruchu.
-- `public/app.js` — udostępnianie i stopniowe pojawianie sekcji; strona działa też bez JS.
-- `public/credits.html` — źródła zdjęć i licencje.
-- `docs/PROJECT.md` — założenia i rozwój kampanii.
-- `docs/SOURCES.md` — źródła faktów i ich kontekst.
+- `docs/index.html` — treść kampanii, metadane i scentralizowana sekcja działania `#dzialaj`.
+- `docs/styles.css` — responsywny wygląd i animacje z obsługą ograniczenia ruchu.
+- `docs/app.js` — udostępnianie i stopniowe pojawianie sekcji; strona działa też bez JS.
+- `docs/credits.html` — źródła zdjęć i licencje.
+- `project-docs/PROJECT.md` — założenia i rozwój kampanii.
+- `project-docs/SOURCES.md` — źródła faktów i ich kontekst.
 - `AGENTS.md` — trwałe instrukcje projektu dla agentów.
 - `scripts/serve.mjs` — lokalny serwer podglądu.
 - `scripts/make-share-card.py` — odtworzenie grafiki Open Graph (opcjonalnie Python z Pillow; nie jest potrzebny do publikacji).
 
 ## GitHub Pages
 
-Workflow `.github/workflows/pages.yml` publikuje wyłącznie `public/` po pushu do `main`. W ustawieniach repozytorium wybierz **Pages → Source → GitHub Actions**. Hosting repozytorium prywatnego wymaga odpowiedniego planu GitHub; alternatywą jest upublicznienie repozytorium za zgodą właściciela.
+Repozytorium: [artpi/ocalmylasy.waw.pl](https://github.com/artpi/ocalmylasy.waw.pl), publiczne. Publikacja odbywa się automatycznie z brancha: **Settings → Pages → Deploy from a branch → main → /docs** (`build_type: legacy`). Nie ma własnego workflow. `docs/.nojekyll` pozwala serwować zwykły HTML bez Jekylla. GitHub może pokazywać własny systemowy proces „pages build and deployment” w zakładce Actions — to część publikacji z brancha.
 
-Adres docelowy pierwszego wdrożenia: `https://artpi.github.io/dolinaswidra.pl/`. Marka kampanii to „Ocalmy lasy”; nazwa repozytorium pozostaje `dolinaswidra.pl`. Nowa domena nie została zarejestrowana ani skonfigurowana. Przy jej podłączeniu zaktualizuj canonical i Open Graph w HTML, dodaj `CNAME` oraz konfigurację domeny w Pages i DNS.
+Aktualny adres strony: **https://artpi.github.io/ocalmylasy.waw.pl/**.
+
+Domena docelowa: **https://ocalmylasy.waw.pl/**. Użytkownik polecił poczekać z jej podłączeniem w GitHub do zakończenia propagacji DNS. Pole Custom domain pozostaje puste, a repozytorium nie zawiera `CNAME`. Canonical i `og:url` są już przygotowane dla nowej domeny; grafika `og:image` ładuje się z GitHub Pages. Przy późniejszym podłączeniu domeny ustaw ją w Pages, dodaj `docs/CNAME`, sprawdź HTTPS i przestaw `og:image`.
 
 ## Aktualizacja działania
 
